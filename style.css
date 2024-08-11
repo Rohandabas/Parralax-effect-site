@@ -1,0 +1,28 @@
+ /* .rd {
+            width: 200px;
+            height: 200px;
+            background-image: url('ME.jpg');
+            background-size: cover;
+            transition: background-image 0.3s ease-in-out;
+            margin-left: 98px;
+        }
+        .rd:hover {
+            background-image: url('p1.jpg');
+        } */
+
+
+        .container{
+            background-color: aqua;
+            height: 200px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        image{
+            position: fixed;
+        }
+        .box{
+            border: 1px solid black;
+            width: 80px;
+        }
